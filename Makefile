@@ -7,6 +7,6 @@ all: clean
 	gcc -m32 -o test obj/asm.o obj/main.o
 
 clean:
+	rm test
 	rm -rf obj
 	mkdir obj
-
