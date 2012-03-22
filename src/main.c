@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-extern int mem_detect_e820();
+extern int do_asm();
 
 int main(void) {
   int i = 0;
 
-  i = mem_detect_e820();
+  i = do_asm();
   printf("Test: %d\n", i);
 }
